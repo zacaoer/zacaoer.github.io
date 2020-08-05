@@ -175,7 +175,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      163 字
+      563 字
     </span>
   
 
@@ -185,7 +185,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      2
+      8
        分钟
     </span>
   
@@ -220,10 +220,18 @@
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
-<h1 id="函数笔记"><a href="#函数笔记" class="headerlink" title="函数笔记"></a>函数笔记</h1><h2 id="1-三角函数"><a href="#1-三角函数" class="headerlink" title="1. 三角函数"></a>1. 三角函数</h2><p>$$sin(A+B)=cos(A) \times sin(B)+sin(A) \times cos(B)$$<br>$$cos(A-B)=cos(A) \times cos(B)-sin(A) \times sin(B)$$<br>证明: 由欧拉定理\(e^{ix}=cos(x)+i \times sin(x)\) (泰勒级数展开可得)<br>\(\qquad e^{iA+iB}\)<br>\(=cos(A+B)+i \times sin(A+B)\)<br>\(=e^{iA} \times e^{iB}\)<br>\(=(cos(A)+i \times sin(A)) \times (cos(B)+i \times sin(B))\)<br>\(=cos(A) \times cos(B)-sin(A) \times sin(B)+i \times (sin(A) \times cos(B)+cos(A) \times sin(B))\)<br>得证</p>
-<h2 id="2-连续性"><a href="#2-连续性" class="headerlink" title="2. 连续性"></a>2. 连续性</h2><p>$$lim_{x-&gt;a^-}f(x)=lim_{x-&gt;a^+}f(x)=f(a)$$</p>
-<h2 id="3-中值定理"><a href="#3-中值定理" class="headerlink" title="3. 中值定理"></a>3. 中值定理</h2><p>$$f(x)在[a,b]上连续，若f(a)&lt;0,f(b)&gt;=0,则存在f(c)=0,a&lt;c&lt;b$$</p>
-
+<h1 id="函数笔记"><a href="#函数笔记" class="headerlink" title="函数笔记"></a>函数笔记</h1><h2 id="1-三角函数"><a href="#1-三角函数" class="headerlink" title="1. 三角函数"></a>1. 三角函数</h2><p>$$sin(A+B)=cos(A)sin(B)+sin(A)cos(B)$$<br>$$cos(A-B)=cos(A)cos(B)-sin(A)sin(B)$$<br>证明: 由欧拉定理\(e^{ix}=cos(x)+i \times sin(x)\) (泰勒级数展开可得)<br>\(\qquad e^{iA+iB}\)<br>\(=cos(A+B)+i \times sin(A+B)\)<br>\(=e^{iA} \times e^{iB}\)<br>\(=(cos(A)+i \times sin(A))  (cos(B)+i \times sin(B))\)<br>\(=cos(A)cos(B)-sin(A)sin(B)+i \times (sin(A)cos(B)+cos(A)sin(B))\)<br>得证</p>
+<h2 id="2-连续性"><a href="#2-连续性" class="headerlink" title="2. 连续性"></a>2. 连续性</h2><p>$$lim_{x\to a^-}f(x)=lim_{x\to a^+}f(x)=f(a)$$</p>
+<h2 id="3-介值定理"><a href="#3-介值定理" class="headerlink" title="3. 介值定理"></a>3. 介值定理</h2><p>$$f(x)在[a,b]上连续，若f(a)&lt;0,f(b)&gt;=0,则存在f(c)=0,a&lt;c&lt;b$$</p>
+<h2 id="4-求解微分问题"><a href="#4-求解微分问题" class="headerlink" title="4. 求解微分问题"></a>4. 求解微分问题</h2><h3 id="4-1-乘积法则"><a href="#4-1-乘积法则" class="headerlink" title="4.1. 乘积法则"></a>4.1. 乘积法则</h3><p>\((版本 1) 如果 h(x) = f(x)g(x), 那么 h′(x) = f′(x)g(x) + f(x)g′(x).\)<br>\((版本2) 如果y=uv,则 \frac{dy}{dx}=v \frac{du}{dx} + u \frac{dv}{dx}\)<br>\((三个变量) 如果 y = uvw, 那么\frac{dy}{dx} = \frac{du}{dx}vw+u\frac{dv}{dx}w+uv\frac{dw}{dx}\)</p>
+<h3 id="4-2-商法则"><a href="#4-2-商法则" class="headerlink" title="4.2. 商法则"></a>4.2. 商法则</h3><p>\((版本 1) 如果h(x)=\frac{f(x)}{g(x)}, 那么h′(x)=\frac{f′(x)g(x)-f(x)g′(x)}{(g(x))^2}\)<br>\((版本 2) 如果y=\frac{u}{v},那么 \frac{dy}{dx}=\frac{v\frac{du}{dx}-u\frac{dv}{dx}}{v^2}\)</p>
+<h3 id="4-3-链式求导法则"><a href="#4-3-链式求导法则" class="headerlink" title="4.3. 链式求导法则"></a>4.3. 链式求导法则</h3><p>\((版本 1) 如果 h(x) = f(g(x)), 那么 h′(x) = f′(g(x))g′(x).\)<br>\((版本 2) 如果y是u的函数,并且u是x的函数,那么\frac{dy}{dx}=\frac{dy}{du}\frac{du}{dx}\)</p>
+<h3 id="4-4-反函数求导"><a href="#4-4-反函数求导" class="headerlink" title="4.4. 反函数求导"></a>4.4. 反函数求导</h3><p>\(如果y=f^{-1}(x)，则有\frac{dy}{dx}=\frac{1}{f′(y)}\)</p>
+<h2 id="5-极值定理"><a href="#5-极值定理" class="headerlink" title="5. 极值定理"></a>5. 极值定理</h2><p>假设函数 f 定义在开区间 (a, b) 内, 并且点 c 在 (a, b) 区间内. 如果点 c 为函数的局部最大值或最小值,那么点 c 一定为该函数的临界 点. 也就是说, f′(c) = 0 或 f′(c) 不存在.</p>
+<h2 id="6-罗尔定理"><a href="#6-罗尔定理" class="headerlink" title="6. 罗尔定理"></a>6. 罗尔定理</h2><p>假设函数 f 在闭区间 [a, b] 内连续, 在开区间 (a, b) 内可导. 如 果 f(a) = f(b), 那么在开区间 (a, b) 内至少存在一点 c, 使得 f′(c) = 0.</p>
+<h2 id="7-中值定理"><a href="#7-中值定理" class="headerlink" title="7. 中值定理"></a>7. 中值定理</h2><p>假设函数 f 在闭区间 [a, b] 内连续, 在开区间 (a, b) 内可导, 那 么在开区间 (a, b) 内至少有一点 c 使得\(f′(c)= \frac{f(b)−f(a)}{b−a}\)</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://book.mzh.ren/the-calculus-lifesaver.html" target="_blank" rel="noopener">普林斯顿微积分读本</a>
+<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>
             </article>
             <hr>
             <div>
