@@ -29,25 +29,6 @@
   
   
   <entry>
-    <title>视频背景</title>
-    <link href="/2020/08/01/learn-tech-1/"/>
-    <url>/2020/08/01/learn-tech-1/</url>
-    
-    <content type="html"><![CDATA[<video muted autoplay="autoplay" loop="loop" poster="https://s1.ax1x.com/2020/08/03/aaheHK.png" id="bgvideo">  <source src="http://qdyrkh4n4.bkt.clouddn.com/Redial_Final.mp4" type="video/mp4"></video><div id="polina"><h1>视频背景测试</h1><p>~~~我是一个占位符~~~</p></div><style>video#bgvideo {    position: fixed; right: 0; bottom: 0;    min-width: 100%; min-height: 100%;    width: 100%; height: auto; z-index: -100;    background: url(https://s1.ax1x.com/2020/08/03/aaheHK.png) no-repeat;    background-size: cover;    mix-blend-mode: screen;}</style>]]></content>
-    
-    
-    <categories>
-      
-      <category>技术</category>
-      
-    </categories>
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>数学笔记--微积分(1)</title>
     <link href="/2020/08/01/learn-math-1/"/>
     <url>/2020/08/01/learn-math-1/</url>
@@ -58,6 +39,25 @@
     <categories>
       
       <category>学习</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>视频背景</title>
+    <link href="/2020/08/01/learn-tech-1/"/>
+    <url>/2020/08/01/learn-tech-1/</url>
+    
+    <content type="html"><![CDATA[<video muted autoplay="autoplay" loop="loop" poster="https://s1.ax1x.com/2020/08/03/aaheHK.png" id="bgvideo">  <source src="http://qdyrkh4n4.bkt.clouddn.com/Redial_Final.mp4" type="video/mp4"></video><div id="polina"><h1>视频背景测试</h1><p>~~~我是一个占位符~~~</p></div><style>video#bgvideo {    position: fixed; right: 0; bottom: 0;    min-width: 100%; min-height: 100%;    width: 100%; height: auto; z-index: -100;    background: url(https://s1.ax1x.com/2020/08/03/aaheHK.png) no-repeat;    background-size: cover;    mix-blend-mode: screen;}</style>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术</category>
       
     </categories>
     
