@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="Kyle Wang">
   <meta name="keywords" content="">
-  <title>视频背景 - Kyle Funs</title>
+  <title>hexo插入视频背景 - Kyle Funs</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
@@ -175,7 +175,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      54 字
+      219 字
     </span>
   
 
@@ -185,7 +185,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      3
        分钟
     </span>
   
@@ -220,10 +220,6 @@
 <video muted autoplay="autoplay" loop="loop" poster="https://s1.ax1x.com/2020/08/03/aaheHK.png" id="bgvideo">
   <source src="http://qdyrkh4n4.bkt.clouddn.com/Redial_Final.mp4" type="video/mp4">
 </video>
-<div id="polina">
-<h1>视频背景测试</h1>
-<p>~~~我是一个占位符~~~</p>
-</div>
 
 <style>
 video#bgvideo {
@@ -236,6 +232,25 @@ video#bgvideo {
 }
 </style>
 
+
+
+<h1 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h1><h2 id="hexo框架"><a href="#hexo框架" class="headerlink" title="hexo框架"></a>hexo框架</h2><p>hexo框架是一个快速、简洁而且高效的博客框架，是基于node.js开发的快速生成静态页面的博客框架之一，很简单就可以将静态页面托管到git中，再通过申请的域名生成简单的博客。</p>
+<h2 id="hexo框架下插入视频背景"><a href="#hexo框架下插入视频背景" class="headerlink" title="hexo框架下插入视频背景"></a>hexo框架下插入视频背景</h2><p>在需要插入视频背景的文章里，如index.md下</p>
+<pre><code class="hljs bash">&#123;% raw %&#125;
+&lt;video muted autoplay=<span class="hljs-string">"autoplay"</span> loop=<span class="hljs-string">"loop"</span> poster=<span class="hljs-string">"/img/bg.jpg"</span> id=<span class="hljs-string">"bgvideo"</span>&gt;
+  &lt;<span class="hljs-built_in">source</span> src=<span class="hljs-string">"/video/bg.mp4"</span> <span class="hljs-built_in">type</span>=<span class="hljs-string">"video/mp4"</span>&gt;
+&lt;/video&gt;
+&lt;style&gt;
+video<span class="hljs-comment">#bgvideo &#123;</span>
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: 100%; height: auto; z-index: -100;
+    background: url(/img/bg.jpg) no-repeat;
+    background-size: cover;
+    mix-blend-mode: screen;
+&#125;
+&lt;/style&gt;
+&#123;% endraw %&#125;</code></pre>
 
 
             </article>
@@ -430,7 +445,7 @@ video#bgvideo {
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "视频背景&nbsp;",
+        "hexo插入视频背景&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
